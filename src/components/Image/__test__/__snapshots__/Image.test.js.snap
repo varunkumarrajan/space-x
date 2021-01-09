@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image App Snapshot 1`] = `
+<img
+  alt="testing"
+  className="sc-bdfBwQ eVkeNQ"
+  src="testing.png"
+  title="testing"
+/>
+`;

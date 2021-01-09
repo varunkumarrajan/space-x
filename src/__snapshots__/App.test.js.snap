@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App App Snapshot 1`] = `
+Array [
+  <header
+    className="sc-bdfBwQ jIqIGL"
+    data-testid="headerId"
+  >
+    SpaceX Launch Programs
+  </header>,
+  <main
+    className="sc-hKgILt bCXTwy"
+    data-testid="mainId"
+  >
+    
+    <div
+      className="sc-jSgupP iHVffR"
+    >
+      <section
+        className="sc-gKsewC hVyGZm"
+      >
+        <h4
+          className="sc-iBPRYJ jpIZet"
+        >
+          Filters
+        </h4>
+        <div
+          className="sc-fubCfw ewPvAl"
+        >
+          Launch Year
+        </div>
+        <div
+          className="sc-pFZIQ gXWDYG"
+        >
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2006
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2007
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2008
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2009
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2010
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2011
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2012
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2013
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2014
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2015
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2016
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2017
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2018
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2019
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            2020
+          </button>
+        </div>
+        <div
+          className="sc-fubCfw ewPvAl"
+        >
+          Successful Launch
+        </div>
+        <div
+          className="sc-pFZIQ gXWDYG"
+        >
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            True
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            False
+          </button>
+        </div>
+        <div
+          className="sc-fubCfw ewPvAl"
+        >
+          Successful Landing
+        </div>
+        <div
+          className="sc-pFZIQ gXWDYG"
+        >
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            True
+          </button>
+          <button
+            className="sc-eCssSg gFidmU"
+            data-testid="buttonId"
+            onClick={[Function]}
+          >
+            False
+          </button>
+        </div>
+      </section>
+    </div>
+    <div
+      aria-busy={false}
+    >
+      <section
+        className="sc-fodVxV YYsSk"
+      >
+        <h2
+          className="sc-fFubgz dbuCGc"
+        >
+          No Records Found
+        </h2>
+      </section>
+      <span />
+    </div>
+  </main>,
+  <footer
+    className="sc-gsTCUz eZedek"
+    data-testid="footerId"
+  >
+    Developed By
+    : 
+    <div
+      className="sc-dlfnbm ieUdFR"
+      data-testid="footerChildId"
+    >
+      Varun Kumar Rajan
+    </div>
+  </footer>,
+]
+`;

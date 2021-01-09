@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Dashboard Snapshot 1`] = `
+Array [
+  "",
+  <div
+    className="sc-gsTCUz irvyje"
+  >
+    <section
+      className="sc-dlfnbm jsrkcH"
+    >
+      <h4
+        className="sc-hKgILt efvMBG"
+      >
+        Filters
+      </h4>
+      <div
+        className="sc-eCssSg eidbcA"
+      >
+        Launch Year
+      </div>
+      <div
+        className="sc-jSgupP eDskON"
+      >
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2006
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2007
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2008
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2009
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2010
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2011
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2012
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2013
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2014
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2015
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2016
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2017
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2018
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2019
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          2020
+        </button>
+      </div>
+      <div
+        className="sc-eCssSg eidbcA"
+      >
+        Successful Launch
+      </div>
+      <div
+        className="sc-jSgupP eDskON"
+      >
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          True
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          False
+        </button>
+      </div>
+      <div
+        className="sc-eCssSg eidbcA"
+      >
+        Successful Landing
+      </div>
+      <div
+        className="sc-jSgupP eDskON"
+      >
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          True
+        </button>
+        <button
+          className="sc-bdfBwQ hbzmUa"
+          data-testid="buttonId"
+          onClick={[Function]}
+        >
+          False
+        </button>
+      </div>
+    </section>
+  </div>,
+  <div
+    aria-busy={false}
+  >
+    <section
+      className="sc-dQppl elOJqg"
+    >
+      <h2
+        className="sc-bqyKva hXgQog"
+      >
+        No Records Found
+      </h2>
+    </section>
+    <span />
+  </div>,
+]
+`;

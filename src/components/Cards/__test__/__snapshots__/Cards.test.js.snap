@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards Cards Snapshot 1`] = `
+<div
+  aria-busy={false}
+>
+  <section
+    className="sc-fubCfw jetgdW"
+  >
+    <h2
+      className="sc-pFZIQ bbSUyC"
+    >
+      testing
+    </h2>
+  </section>
+  <span />
+</div>
+`;
