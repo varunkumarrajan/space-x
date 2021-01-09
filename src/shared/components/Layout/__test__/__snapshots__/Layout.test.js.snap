@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout Should Layout Snapshot 1`] = `
+Array [
+  <header
+    className="sc-bdfBwQ jIqIGL"
+    data-testid="headerId"
+  >
+    
+  </header>,
+  <main
+    className="sc-hKgILt bCXTwy"
+    data-testid="mainId"
+  >
+    
+  </main>,
+  <footer
+    className="sc-gsTCUz eZedek"
+    data-testid="footerId"
+  >
+    
+    : 
+    <div
+      className="sc-dlfnbm ieUdFR"
+      data-testid="footerChildId"
+    >
+      
+    </div>
+  </footer>,
+]
+`;

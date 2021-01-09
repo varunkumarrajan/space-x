@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// React
+import React from 'react';
+// Shared components
+import Layout from 'shared/components/Layout/Layout';
+// Containers
+import Dashboard from 'containers/Dashboard/Dashboard';
+// Labels
+import labels from 'config/Labels';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// Destructuring
+const { layout } = labels;
 
+/**
+ * @description Root component
+ */
+const App = () => (
+  <Layout content={layout}>
+    <Dashboard />
+  </Layout>
+);
+
+// Default export
 export default App;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Should footer Snapshot 1`] = `
+<footer
+  className="sc-bdfBwQ gdBJkk"
+  data-testid="footerId"
+>
+  test
+  : 
+  <div
+    className="sc-gsTCUz fhPuTa"
+    data-testid="footerChildId"
+  >
+    testing
+  </div>
+</footer>
+`;

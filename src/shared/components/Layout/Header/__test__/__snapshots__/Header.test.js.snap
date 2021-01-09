@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Should Header Snapshot 1`] = `
+<header
+  className="sc-bdfBwQ jIqIGL"
+  data-testid="headerId"
+>
+  testing
+</header>
+`;

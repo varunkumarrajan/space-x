@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Card Snapshot 1`] = `
+<div
+  className="sc-gsTCUz cFIiNV"
+>
+  <img
+    alt="testing"
+    className="sc-bdfBwQ eVkeNQ"
+    src="testing.png"
+    title="testing"
+  />
+  <div
+    className="sc-dlfnbm dXuYyU"
+  >
+    <p
+      className="sc-hKgILt hfOryn"
+    >
+      testing
+    </p>
+    <div
+      className="sc-eCssSg hTrBts"
+    >
+      <span
+        className="sc-gKsewC jqTwMs"
+      >
+        :
+      </span>
+      <span
+        className="sc-iBPRYJ hpasmu"
+      >
+        <ul
+          className="sc-jSgupP itglwW"
+        />
+      </span>
+    </div>
+    <div
+      className="sc-eCssSg hTrBts"
+    >
+      <span
+        className="sc-gKsewC jqTwMs"
+      >
+        :
+      </span>
+      <span
+        className="sc-iBPRYJ hpasmu"
+      >
+        2021
+      </span>
+    </div>
+    <div
+      className="sc-eCssSg hTrBts"
+    >
+      <span
+        className="sc-gKsewC jqTwMs"
+      >
+        :
+      </span>
+      <span
+        className="sc-iBPRYJ hpasmu"
+      >
+        true
+      </span>
+    </div>
+    <div
+      className="sc-eCssSg hTrBts"
+    >
+      <span
+        className="sc-gKsewC jqTwMs"
+      >
+        :
+      </span>
+      <span
+        className="sc-iBPRYJ hpasmu"
+      >
+        true
+      </span>
+    </div>
+  </div>
+</div>
+`;
