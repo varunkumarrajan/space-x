@@ -93,12 +93,7 @@ const Dashboard = () => {
    * @param {string} filter
    * @param {string} filterType
    */
-  const handleFilter = (filter, filterType) =>
-    setFilters(
-      JSON.parse(JSON.stringify(filters)).map((f) =>
-        f.key === filterType ? { ...f, value: filter } : f
-      )
-    );
+  const handleFilter = updatedFilter => setFilters(updatedFilter);
 
   // Return html
   return (
