@@ -6,7 +6,13 @@ import PropTypes from 'prop-types'; // ES6
 import styled from 'styled-components';
 // Components
 import Button from 'components/Button/Button';
+// Device
 import device from 'config/BreakPoints';
+// Constant
+import constant from 'constant/Constant';
+
+// Destructuring
+const { LATENCY } = constant;
 
 // Styled container
 const Container = styled.div`
@@ -41,7 +47,7 @@ const SubHeading = styled.div`
 const Divider = styled.div`
   margin: 5px 0;
   @media screen and ${device.mobile} {
-    text-align:center;
+    text-align: center;
   }
 `;
 
@@ -50,34 +56,62 @@ const Divider = styled.div`
  * @param {object} { content, handleFilter}
  */
 const Filters = ({ content, handleFilter }) => {
+  // Local state
+  const [event, setEvent] = React.useState({click: 0, filterKey: '', filterType: ''});
+
+  // Update check click & double click
+  React.useEffect(() => {
+    let timer;
+    if (event.click === 1) {
+      timer = setTimeout(
+        () => {
+          handleFilters();
+          setEvent({...event, click: 0});
+        }, LATENCY);
+    } else if (event.click === 2) {
+      handleFilters(true);
+      setEvent({...event, click: 0});
+    }
+    return () => clearTimeout(timer);
+  }, [event.click]);
+
   /**
-   * @description Update filter values with the existing filter values
+   * @description handle click
    * @param {string} filterKey
    * @param {string} filterType
    */
-  const handleFilterTypes = (filterKey, filterType) => {
-    // Put the filter key into new variable
-    let updatedFilter = filterKey;
-    // Loop over the filters
-    content.filters.forEach((filter) => {
-      // check filter type (ex: year)
-      if (filter.key === filterType) {
-        // check multiple selection
-        if (filter.multi) {
-          // check & update the filter variable
-          updatedFilter = filter?.value
-            ? filter.value.split(',').includes(filterKey)
-              ? filter.value
-                  .split(',')
-                  .filter((f) => f !== filterKey)
-                  .join(',')
-              : `${filter.value},${filterKey}`
-            : `${filterKey}`;
+  const handleClick = (filterKey, filterType) => setEvent({filterKey, filterType, click: 1})
+
+  /**
+   * @description handle double click
+   * @param {string} filterKey
+   * @param {string} filterType
+   */
+  const handleDoubleClick = (filterKey, filterType) => setEvent({filterKey, filterType, click: 2});
+
+  /**
+   * @description
+   * @param {boolean} [isCheck=false]
+   */
+  const handleFilters = (isCheck = false) => {
+    // get key
+    let updatedFilter = event.filterKey;
+    // check update filter or not
+    if (isCheck)
+      // Loop over the filters
+      content.filters.forEach((filter) => {
+        // check filter type (ex: year)
+        if (filter.key === event.filterType) {
+          // update filter with blank
+          updatedFilter = '';
         }
-      }
-    });
+      });
     // call the callback
-    handleFilter(updatedFilter, filterType);
+    handleFilter(
+      content.filters.map((f) =>
+        f.key === event.filterType ? { ...f, value: updatedFilter } : f
+      )
+    );
   };
 
   // return filter component (html)
@@ -92,7 +126,8 @@ const Filters = ({ content, handleFilter }) => {
               {content.filterDetails[filterType.key].map((filter, i) => (
                 <Button
                   key={i}
-                  handleButtonClick={handleFilterTypes}
+                  handleButtonClick={handleClick}
+                  handleButtonDoubleClick={handleDoubleClick}
                   button={{
                     ...filter,
                     type: filterType.key,

@@ -16,7 +16,7 @@ const config = {
       )}${config.launchYear(year)}`,
   },
   filterTypes: [
-    { key: 'years', title: filters.year, value: '', multi: true },
+    { key: 'years', title: filters.year, value: '', multi: false },
     { key: 'launch', title: filters.launch, value: '', multi: false },
     { key: 'land', title: filters.land, value: '', multi: false },
   ],

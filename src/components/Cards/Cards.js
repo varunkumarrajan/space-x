@@ -36,11 +36,11 @@ const Cards = ({ content }) => (
             content={{
               labels: content.labels,
               alt: lan?.details ?? '',
-              src: lan.links.mission_patch,
+              src: lan?.links?.mission_patch ?? '',
               missionName: `${lan.mission_name} # ${lan.flight_number}`,
               missionIds: lan.mission_id,
               year: lan.launch_year,
-              sLaunch: lan?.launch_success?.toString(),
+              sLaunch: lan?.launch_success?.toString() ?? '',
               sLand: lan?.launch_landing?.toString() ?? '',
             }}
           />

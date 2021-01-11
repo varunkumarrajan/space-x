@@ -18,7 +18,7 @@ exports[`Filters Filters Snapshot 1`] = `
       Launch Year
     </div>
     <div
-      className="sc-jSgupP hUUCHt"
+      className="sc-jSgupP eWnIQF"
     >
       <button
         className="sc-bdfBwQ hbzmUa"
@@ -132,7 +132,7 @@ exports[`Filters Filters Snapshot 1`] = `
       Successful Launch
     </div>
     <div
-      className="sc-jSgupP hUUCHt"
+      className="sc-jSgupP eWnIQF"
     >
       <button
         className="sc-bdfBwQ hbzmUa"
@@ -155,7 +155,7 @@ exports[`Filters Filters Snapshot 1`] = `
       Successful Landing
     </div>
     <div
-      className="sc-jSgupP hUUCHt"
+      className="sc-jSgupP eWnIQF"
     >
       <button
         className="sc-bdfBwQ hbzmUa"

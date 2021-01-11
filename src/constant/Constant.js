@@ -4,6 +4,7 @@ const constant = {
   timeout: 10000,
   ERROR_CONTENT: 'Something problem while fetching data',
   DELAY: 5000,
+  LATENCY: 250
 };
 
 // Default export

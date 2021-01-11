@@ -33,7 +33,7 @@ const ButtonWrapper = styled.button`
  * @description html button with extended style with styled component
  * @param {object} { button, handleButtonClick }
  */
-const Button = ({ button, handleButtonClick }) => (
+const Button = ({ button, handleButtonClick, handleButtonDoubleClick }) => (
   <ButtonWrapper
     data-testid="buttonId"
     active={
@@ -42,6 +42,7 @@ const Button = ({ button, handleButtonClick }) => (
         : false
     }
     onClick={() => handleButtonClick(button.key, button.type)}
+    onDoubleClick={() => handleButtonDoubleClick(button.key, button.type)}
   >
     {button.value}
   </ButtonWrapper>
@@ -59,6 +60,7 @@ Button.defaultProps = {
     type: '',
   },
   handleButtonClick: () => {},
+  handleButtonDoubleClick: () => {}
 };
 
 // Prop types
@@ -70,4 +72,5 @@ Button.propTypes = {
     type: PropTypes.string.isRequired,
   }),
   handleButtonClick: PropTypes.func.isRequired,
+  handleButtonDoubleClick: PropTypes.func.isRequired
 };
