@@ -4,7 +4,7 @@ exports[`Dashboard Dashboard Snapshot 1`] = `
 Array [
   "",
   <div
-    className="sc-gsTCUz irvyje"
+    className="sc-gsTCUz eDbDeT"
   >
     <section
       className="sc-dlfnbm jsrkcH"
@@ -20,7 +20,7 @@ Array [
         Launch Year
       </div>
       <div
-        className="sc-jSgupP eDskON"
+        className="sc-jSgupP hUUCHt"
       >
         <button
           className="sc-bdfBwQ hbzmUa"
@@ -134,7 +134,7 @@ Array [
         Successful Launch
       </div>
       <div
-        className="sc-jSgupP eDskON"
+        className="sc-jSgupP hUUCHt"
       >
         <button
           className="sc-bdfBwQ hbzmUa"
@@ -157,7 +157,7 @@ Array [
         Successful Landing
       </div>
       <div
-        className="sc-jSgupP eDskON"
+        className="sc-jSgupP hUUCHt"
       >
         <button
           className="sc-bdfBwQ hbzmUa"

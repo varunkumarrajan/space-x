@@ -46,7 +46,11 @@ const Cards = ({ content }) => (
           />
         ))
       ) : (
-        <HeadingWrapper>{content.noContent}</HeadingWrapper>
+        <React.Fragment>
+          {!content.loading && (
+            <HeadingWrapper>{content.noContent}</HeadingWrapper>
+          )}
+        </React.Fragment>
       )}
     </CardsWrapper>
   </BlockUi>

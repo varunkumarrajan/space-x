@@ -6,10 +6,14 @@ import PropTypes from 'prop-types'; // ES6
 import styled from 'styled-components';
 // Components
 import Button from 'components/Button/Button';
+import device from 'config/BreakPoints';
 
 // Styled container
 const Container = styled.div`
   flex: 0 0 260px;
+  @media screen and ${device.mobile} {
+    flex: 0 0 100%;
+  }
 `;
 
 // Styled filter wrapper
@@ -36,6 +40,9 @@ const SubHeading = styled.div`
 // Styled divider
 const Divider = styled.div`
   margin: 5px 0;
+  @media screen and ${device.mobile} {
+    text-align:center;
+  }
 `;
 
 /**
